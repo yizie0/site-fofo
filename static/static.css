@@ -1,0 +1,40 @@
+body {
+    background-color: #fff0f5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    padding: 50px;
+    color: #ff69b4;
+}
+
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.botao {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.botao:hover {
+    background-color: #ff1493;
+}
+
+.hearts {
+    font-size: 30px;
+    animation: flutuar 2s infinite alternate;
+}
+
+@keyframes flutuar {
+    from { transform: translateY(0); }
+    to { transform: translateY(-10px); }
+}
